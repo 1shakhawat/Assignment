@@ -118,3 +118,44 @@ img{
     width: 350px;
     padding-left: 20px;
 }
+.card-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.card-design{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start; 
+    gap: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 12px;
+    background: rgb(255, 255, 255);
+}
+.card-design>img{
+    height: 50px;
+    width: 50px;
+    padding-left: 0px;
+}
+.box-title{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 15px;
+letter-spacing: 0%;
+text-align: left;
+}
+.box-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;  
+}
