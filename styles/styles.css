@@ -281,3 +281,187 @@ text-align: left;
     
     background: url(../assets/satelite.png)   
 }
+.box{
+    padding-left: 20px;
+}
+.Date{
+    display: flex;
+    gap: 10px;
+}
+.box-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;   
+}
+.d-style{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;   
+}
+.BD-box-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;   
+}
+.BD-box-btn:hover{
+    border-radius: 8px;
+    background: rgb(0, 106, 80); 
+    padding: 7px 18px 7px 18px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;     
+}
+.donate-btn{
+    display: flex;
+    gap: 20px;
+}
+.btn-style{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+     background: rgb(255, 255, 255);
+     padding: 30px 40px;
+     color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+}
+.donate-head{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+.donate-content{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;   
+}
+#input-1{
+    color: rgba(14, 14, 14, 0.3); 
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    /* box-sizing: border-box; */
+border: 1px solid ;
+background: rgb(255, 255, 255);
+padding: 20px 400px 20px 400px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 24;
+}
+.donate-button:hover{
+    padding: 10px 17px 10px 17px;   
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    background: rgb(0, 106, 80); 
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;      
+}
+.donate-btn-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-head{
+    padding: 0px;
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+}
+.footer-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;   
+}
+.foot-box{
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    margin: 60px 170px;
+    padding: 60px 100px 60px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.footer-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+.footer-btn{
+    border-radius: 0px 6px 6px 0px;
+
+background: rgb(0, 106, 80);
+/* padding: 1px 34px 17px 34px; */
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 12px;
+font-weight: 600;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: left;
+}
+#input-box{
+    padding:0px 50px;
+    border-radius: 6px 0px 0px 6px ;
+    background: rgb(255, 255, 255);
+    color: rgba(14, 14, 14, 0.3);
+font-family: Fira Sans;
+font-size: 12px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+}
+#foot-sector{
+    background: rgb(245, 245, 245);
+    margin-top: 0px;
+    padding-top: 0px;
+}
