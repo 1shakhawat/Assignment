@@ -239,3 +239,45 @@ line-height: 16px;
 letter-spacing: 0%;
 text-align: left;
 }
+.box-heading{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.box-pera{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.time{
+    display: flex;
+    gap: 40px;
+}
+.BD{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /* gap: 32; */
+    padding:30px;
+    border-radius: 24px;
+  background: rgb(255, 255, 255);
+}
+#image2{
+   height: 30px;
+   width: 100px;
+   padding-left: 0px;
+}
+#image1{
+    border-radius: 24px;
+    
+    background: url(../assets/satelite.png)   
+}
